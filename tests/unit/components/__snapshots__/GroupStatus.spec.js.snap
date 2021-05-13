@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GroupStatus should match snapshot with optional props 1`] = `
+<div
+  class="group-status"
+>
+  <h2>
+    Name
+  </h2>
+   
+  <p>
+    35% completed
+  </p>
+</div>
+`;
+
+exports[`GroupStatus should match snapshot without optional props 1`] = `
+<div
+  class="group-status"
+>
+  <h2>
+    
+  </h2>
+   
+  <p>
+    35% completed
+  </p>
+</div>
+`;

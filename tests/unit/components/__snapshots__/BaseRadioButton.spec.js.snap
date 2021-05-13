@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BaseRadioButton should match snapshot 1`] = `
+<span>
+  <input
+    class="radio"
+    type="radio"
+    value="val"
+  />
+   
+  <span
+    class="checkmark"
+  />
+</span>
+`;

@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QuestionBlock should match snapshot 1`] = `
+<div>
+  <h3>
+    question text
+  </h3>
+   
+  <p>
+    <label>
+      <baseradiobutton-stub
+        modelvalue="1"
+        name="answer"
+        value="0"
+      />
+      
+      a1
+    
+    </label>
+  </p>
+  <p>
+    <label>
+      <baseradiobutton-stub
+        modelvalue="1"
+        name="answer"
+        value="1"
+      />
+      
+      a2
+    
+    </label>
+  </p>
+  <p>
+    <label>
+      <baseradiobutton-stub
+        modelvalue="1"
+        name="answer"
+        value="2"
+      />
+      
+      a3
+    
+    </label>
+  </p>
+</div>
+`;

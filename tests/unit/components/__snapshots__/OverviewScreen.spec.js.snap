@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OverviewScreen should match snapshot 1`] = `
+<div>
+  <h2>
+    Answers owerview
+  </h2>
+   
+  <collapsibleblock-stub
+    title="group1"
+  >
+    <div>
+      <h4>
+        question1
+      </h4>
+       
+      <p>
+        <a
+          href="#"
+        >
+          a2
+        </a>
+      </p>
+    </div>
+    <div>
+      <h4>
+        question2
+      </h4>
+       
+      <p>
+        <a
+          href="#"
+        >
+          a3
+        </a>
+      </p>
+    </div>
+  </collapsibleblock-stub>
+  <collapsibleblock-stub
+    title="group2"
+  >
+    <div>
+      <h4>
+        question3
+      </h4>
+       
+      <p>
+        <a
+          href="#"
+        >
+          a5
+        </a>
+      </p>
+    </div>
+  </collapsibleblock-stub>
+</div>
+`;

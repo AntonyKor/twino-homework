@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should match snapshot after data was loaded 1`] = `
+<div
+  id="app"
+>
+  <h1>
+    Suitabitity test
+  </h1>
+   
+  <progressbar-stub
+    currentgroup="0"
+    currentgroupprogress="50"
+    groupsnumber="2"
+  />
+   
+  <groupstatus-stub
+    groupname="group1"
+    groupprogress="50"
+  />
+   
+  <questionblock-stub
+    question="[object Object]"
+  />
+   
+  <!---->
+   
+  <!---->
+   
+  <button
+    class="next"
+  >
+    
+      Next question
+    
+  </button>
+   
+  <!---->
+</div>
+`;
+
+exports[`App should match snapshot before data was loaded 1`] = `
+<div
+  id="app"
+>
+  <h1>
+    Suitabitity test
+  </h1>
+   
+  <progressbar-stub
+    currentgroup="0"
+    currentgroupprogress="0"
+    groupsnumber="0"
+  />
+   
+  <!---->
+   
+  <!---->
+   
+  <!---->
+   
+  <button
+    class="next"
+  >
+    
+      View overview
+    
+  </button>
+   
+  <button
+    class="next"
+  >
+    
+      Next question
+    
+  </button>
+   
+  <!---->
+</div>
+`;

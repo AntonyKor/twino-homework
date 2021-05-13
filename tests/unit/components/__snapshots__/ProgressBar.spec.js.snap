@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProgressBar.vue should match snapshot 1`] = `
+<div
+  class="progress-bar"
+  style="grid-template-columns: repeat(3, 1fr);"
+>
+  <div
+    class="group filled"
+  >
+    <!---->
+  </div>
+  <div
+    class="group active"
+  >
+    <div
+      class="filled"
+      style="width: 35%;"
+    />
+  </div>
+  <div
+    class="group"
+  >
+    <!---->
+  </div>
+</div>
+`;

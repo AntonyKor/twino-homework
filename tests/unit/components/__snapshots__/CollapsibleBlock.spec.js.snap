@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CollapsibleBlock should match snapshot with optional props 1`] = `
+<div
+  class="collapsible collapsed"
+>
+  <header>
+    <h3>
+      Title
+    </h3>
+     
+    <button>
+      
+      Show more
+    
+    </button>
+  </header>
+   
+  <div
+    class="content"
+  >
+    <p>
+      slot
+    </p>
+  </div>
+</div>
+`;
+
+exports[`CollapsibleBlock should match snapshot without optional props 1`] = `
+<div
+  class="collapsible collapsed"
+>
+  <header>
+    <h3>
+      
+    </h3>
+     
+    <button>
+      
+      Show more
+    
+    </button>
+  </header>
+   
+  <div
+    class="content"
+  />
+</div>
+`;
